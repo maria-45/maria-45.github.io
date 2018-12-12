@@ -11,11 +11,17 @@ layer = iface.addVectorLayer('Z:/GIS_Internship/2011_ACS_5YR_BG_24_MARYLAND/2011
 ```
 ## Step 2
 I need to classify the data so that it shows each block group by it's median household income. I classified all eight states into six categories:
+
     0.00 - 25,000.00
+    
     25,000.1 - 50,000.00
+    
     50,000.01 - 75,000.00
+    
     75,000.01 - 100,000.00
+    
     100,000.01 - 150,000.00
+    
     150,000.01 - 210,000.00
     
 Then I added in the tornado paths and it looks like this:
